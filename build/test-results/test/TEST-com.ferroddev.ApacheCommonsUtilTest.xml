@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.ferroddev.ApacheCommonsUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-12T18:37:32" hostname="fernando-PROX15-AMD" time="0.024">
-  <properties/>
-  <testcase name="apacheCommonsUtil_iterableToList_expectedOk()" classname="com.ferroddev.ApacheCommonsUtilTest" time="0.024"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

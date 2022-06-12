@@ -7,7 +7,7 @@ import java.util.List;
 
 public class GuavaUtil {
 
-    public static List<Integer> iterableToList(final Iterator<Integer> iterator) {
+    public static List<Integer> iteratorToList(final Iterator<Integer> iterator) {
         return ImmutableList.copyOf(iterator);
     }
 

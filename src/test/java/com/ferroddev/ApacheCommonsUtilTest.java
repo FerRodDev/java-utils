@@ -11,9 +11,9 @@ import static org.hamcrest.collection.IsIterableContainingInAnyOrder.containsInA
 class ApacheCommonsUtilTest {
 
     @Test
-    void apacheCommonsUtil_iterableToList_expectedOk() {
+    void apacheCommonsUtil_iteratorToList_expectedOk() {
 
-        final List<Integer> result = GuavaUtil.iterableToList(Arrays.asList(1, 2, 3).iterator());
+        final List<Integer> result = ApacheCommonsUtil.iteratorToList(Arrays.asList(1, 2, 3).iterator());
         assertThat(result, containsInAnyOrder(1, 2, 3));
 
     }
